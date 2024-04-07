@@ -1,90 +1,90 @@
 [[pagefind]]
 arch = "aarch64"
-git-tree-sha1 = "7fbda8c81ce31749a2b2520a5dd9c5221a64584b"
+git-tree-sha1 = "01afd2b22db63bdcaa6abf3684f3ac1cc012eece"
 os = "macos"
 
     [[pagefind.download]]
-    sha256 = "f37101bc4986606b48c5fd4c99f04c413efabbae1fd0913c3bbb3b341c426787"
-    url = "https://github.com/CloudCannon/pagefind/releases/download/v1.0.4/pagefind-v1.0.4-aarch64-apple-darwin.tar.gz"
+    sha256 = "3097b82ac3dc0d7d3d78d242bfd68bc0753ab5432eed6712501b87f9c05c0716"
+    url = "https://github.com/CloudCannon/pagefind/releases/download/v1.1.0/pagefind-v1.1.0-aarch64-apple-darwin.tar.gz"
 [[pagefind]]
 arch = "aarch64"
-git-tree-sha1 = "872af581293457bca8758867caa55fb8986b65da"
+git-tree-sha1 = "0e13da26e20910a865764a2d062a84418279e445"
 libc = "glibc"
 os = "linux"
 
     [[pagefind.download]]
-    sha256 = "df1b3311d6f2bf3c1d78a735ee83a00cb301d9fde658266ad4b5845ab2441eeb"
-    url = "https://github.com/CloudCannon/pagefind/releases/download/v1.0.4/pagefind-v1.0.4-aarch64-unknown-linux-musl.tar.gz"
+    sha256 = "fef38491d13817d85a1b05710c1de05840e4568617ca5bf0b0a1637ec2617e02"
+    url = "https://github.com/CloudCannon/pagefind/releases/download/v1.1.0/pagefind-v1.1.0-aarch64-unknown-linux-musl.tar.gz"
 [[pagefind]]
 arch = "x86_64"
-git-tree-sha1 = "448621af0ed6b662ad56a4890b94f0156ba225d0"
+git-tree-sha1 = "bcd6b0e8d90b87f0ff4343a284c3beb465f837ea"
 os = "macos"
 
     [[pagefind.download]]
-    sha256 = "18a456c3a7f06bd587f42c9911abe49db532a47268e45d4500955d89f050a0b2"
-    url = "https://github.com/CloudCannon/pagefind/releases/download/v1.0.4/pagefind-v1.0.4-x86_64-apple-darwin.tar.gz"
+    sha256 = "5ffd34d32addc2454b436cfbb4894b6220e60d97f32ed003a95db9b1903ad2a0"
+    url = "https://github.com/CloudCannon/pagefind/releases/download/v1.1.0/pagefind-v1.1.0-x86_64-apple-darwin.tar.gz"
 [[pagefind]]
 arch = "x86_64"
-git-tree-sha1 = "02325ec46813eca2b53f51b6f1f37fdde5dac381"
+git-tree-sha1 = "c67f9bb17c92f6760787f4c4479eb2503d5966e7"
 os = "windows"
 
     [[pagefind.download]]
-    sha256 = "4869ef223a923b6d5b54b31e861c855ba92dd7f18fe53510c3dc2b0a3ce198aa"
-    url = "https://github.com/CloudCannon/pagefind/releases/download/v1.0.4/pagefind-v1.0.4-x86_64-pc-windows-msvc.tar.gz"
+    sha256 = "a04a99318d3604343a3c99c86bcf8c35e829ff7f729a4ec1b6d66adfaaf52e6f"
+    url = "https://github.com/CloudCannon/pagefind/releases/download/v1.1.0/pagefind-v1.1.0-x86_64-pc-windows-msvc.tar.gz"
 [[pagefind]]
 arch = "x86_64"
-git-tree-sha1 = "54dd0171a25860e3182e69eeac5d88073150b60e"
+git-tree-sha1 = "6f47be3510b9737d61bdf584a2ba1bcfdf75885d"
 libc = "glibc"
 os = "linux"
 
     [[pagefind.download]]
-    sha256 = "a3a1ecf1d6edd79551c8b98a863b20cbdd999316a6ca73e81e277a74449db886"
-    url = "https://github.com/CloudCannon/pagefind/releases/download/v1.0.4/pagefind-v1.0.4-x86_64-unknown-linux-musl.tar.gz"
+    sha256 = "b20d0b06b54eb2fba1e290245919376364584a456fb644e66eecdb67549b1cf2"
+    url = "https://github.com/CloudCannon/pagefind/releases/download/v1.1.0/pagefind-v1.1.0-x86_64-unknown-linux-musl.tar.gz"
 
 [[pagefind_extended]]
 arch = "aarch64"
-git-tree-sha1 = "7b26f25a61ec29332758deda5e9610ed4d6d39d3"
+git-tree-sha1 = "158549b9490d6c407a7fabaf4a1ccb02a294b388"
 lazy = true
 os = "macos"
 
     [[pagefind_extended.download]]
-    sha256 = "173ad49d20b818550f4ec49f2b860aa80cae3a5bd955d2bdcc2614c3b9faaa80"
-    url = "https://github.com/CloudCannon/pagefind/releases/download/v1.0.4/pagefind_extended-v1.0.4-aarch64-apple-darwin.tar.gz"
+    sha256 = "e33ee297b885abcce4a674b70779778e354d7ae4eb1a0b7b15dea48852d80cb7"
+    url = "https://github.com/CloudCannon/pagefind/releases/download/v1.1.0/pagefind_extended-v1.1.0-aarch64-apple-darwin.tar.gz"
 [[pagefind_extended]]
 arch = "aarch64"
-git-tree-sha1 = "96f523e895054d4860e0be67e4fc66039140162f"
+git-tree-sha1 = "ff70ace3f8ca491431661b4feaf5406467617b4a"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[pagefind_extended.download]]
-    sha256 = "f450a5bb1f372fbf140fa59bdd0fc424900b7317f67f82538286ccf90e6498de"
-    url = "https://github.com/CloudCannon/pagefind/releases/download/v1.0.4/pagefind_extended-v1.0.4-aarch64-unknown-linux-musl.tar.gz"
+    sha256 = "b05661d856372beea75468ea683f197b465e019f033259768f65988c9598f390"
+    url = "https://github.com/CloudCannon/pagefind/releases/download/v1.1.0/pagefind_extended-v1.1.0-aarch64-unknown-linux-musl.tar.gz"
 [[pagefind_extended]]
 arch = "x86_64"
-git-tree-sha1 = "740a43f7d12b0be675391b9927ad2361d55702a2"
+git-tree-sha1 = "0834286c7a1cb75105ce0d9fee11ee18dfad465d"
 lazy = true
 os = "macos"
 
     [[pagefind_extended.download]]
-    sha256 = "8737db007cf41aa14df488d01b01707f679fc6d3b899902c10d74a59a2916f2a"
-    url = "https://github.com/CloudCannon/pagefind/releases/download/v1.0.4/pagefind_extended-v1.0.4-x86_64-apple-darwin.tar.gz"
+    sha256 = "907d526d1d40de7a15060a495a460d00ed461fa6e6963278d90152360ea24346"
+    url = "https://github.com/CloudCannon/pagefind/releases/download/v1.1.0/pagefind_extended-v1.1.0-x86_64-apple-darwin.tar.gz"
 [[pagefind_extended]]
 arch = "x86_64"
-git-tree-sha1 = "5affa5033682ad8d967250daab1e714e2baf9558"
+git-tree-sha1 = "67fba7bead8fd1052bac994ea232a821eb859404"
 lazy = true
 os = "windows"
 
     [[pagefind_extended.download]]
-    sha256 = "38aeb0b359f3e408cf517c5554421a947addd8be126e51342a66864eaf0cdefb"
-    url = "https://github.com/CloudCannon/pagefind/releases/download/v1.0.4/pagefind_extended-v1.0.4-x86_64-pc-windows-msvc.tar.gz"
+    sha256 = "5c534b4d69bcae15e3684e074150eefa1b9b16d5f359e10f349bc5add6af5ea6"
+    url = "https://github.com/CloudCannon/pagefind/releases/download/v1.1.0/pagefind_extended-v1.1.0-x86_64-pc-windows-msvc.tar.gz"
 [[pagefind_extended]]
 arch = "x86_64"
-git-tree-sha1 = "7c31eb259f867c7b5151ea3212f09c715806171f"
+git-tree-sha1 = "07e95ea924aaba04bb273d54745a11f155f7b07e"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[pagefind_extended.download]]
-    sha256 = "61cdee630d3fbb30763a982ed0c895731d143d6c60a96c37f261aba4837cb930"
-    url = "https://github.com/CloudCannon/pagefind/releases/download/v1.0.4/pagefind_extended-v1.0.4-x86_64-unknown-linux-musl.tar.gz"
+    sha256 = "583cf2753fb2070448a9c9cf1f31acd1b96af99b9ca0a450faf9bb376420bac4"
+    url = "https://github.com/CloudCannon/pagefind/releases/download/v1.1.0/pagefind_extended-v1.1.0-x86_64-unknown-linux-musl.tar.gz"
