@@ -30,13 +30,20 @@ jobs:
       fail-fast: false
       matrix:
         version:
-          - "1.6"
-          - "1.10"
+          - "min"
+          - "lts"
+          - "1"
           - "nightly"
         os:
           - ubuntu-latest
           - macOS-latest
           - windows-latest
+        exclude:
+          - os: macos-latest # Apple Silicon
+            version: 'min'
+        include:
+          - os: macos-13 # Intel
+            version: 'min'
 
     steps:
       - uses: actions/checkout@v4
