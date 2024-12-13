@@ -41,6 +41,8 @@ jobs:
         exclude:
           - os: macos-latest # Apple Silicon
             version: 'min'
+          - os: windows-latest # Very slow registry install.
+            version: 'min'
         include:
           - os: macos-13 # Intel
             version: 'min'
@@ -51,6 +53,8 @@ jobs:
       - uses: julia-actions/setup-julia@v2
         with:
           version: ${{ matrix.version }}
+
+      - uses: julia-actions/cache@v2
 
       - uses: julia-actions/julia-buildpkg@v1
 
